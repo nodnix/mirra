@@ -2,19 +2,11 @@
 
 **Windows 也能直接操作 iPhone。** 免费、无需账号的 iPhone 镜像控制工具——不只投屏，还能用鼠标、键盘直接操作手机。
 
-[下载 Mirra](https://github.com/nodnix/mirra/releases) · [快速开始](#getting-started) · [加入 QQ 群](#community) · [常见问题](#faq) · [反馈问题](https://github.com/nodnix/mirra/issues)
-
-
+https://github.com/user-attachments/assets/ab38bbb8-6147-4619-b7e5-6e7c557f95c2
 
 免费 · 非开源 · 无账号 · iPhone 零安装 · 无需越狱 · 数据本地直连 
 
 Windows / macOS · Wi-Fi / USB · iOS 27+
-
----
-
-
-
-
 
 ## 下载
 
