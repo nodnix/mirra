@@ -1,4 +1,4 @@
-<h1><img src="assets/mirra-mark.png" width="40" height="40" alt="Mirra logo" style="vertical-align: text-bottom;"> Mirra</h1>
+<h1>Mirra</h1>
 
 **Windows 也能直接操作 iPhone。** 免费、无需账号的 iPhone 镜像控制工具——不只投屏，还能用鼠标、键盘直接操作手机。
 
