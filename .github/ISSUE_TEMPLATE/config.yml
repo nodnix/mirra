@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report / 安全问题
+    url: https://github.com/nodnix/mirra/security/advisories/new
+    about: Do not disclose vulnerabilities in a public issue. / 请勿在公开 Issue 中披露安全漏洞。
