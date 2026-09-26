@@ -1,65 +1,67 @@
-# Mirra 隐私说明
+# Mirra Privacy Notice
 
-生效日期：2026 年 9 月 15 日
+[简体中文](PRIVACY.zh-CN.md) | English
 
-Mirra 无需注册或登录。本文说明 Mirra 在提供镜像、控制、更新和问题反馈功能时如何处理数据。
+Effective date: September 26, 2026
 
-## 镜像与控制
+Mirra does not require registration or login. This notice explains how Mirra handles data while providing mirroring, control, connection component preparation, and problem reporting.
 
-iPhone 的画面、声音和控制指令通过局域网或 USB 在电脑与 iPhone 之间传输，不经过 Mirra 的云端视频中转，也不会作为启动统计上传。
+## Mirroring and control
 
-截图和录屏保存在用户选择的电脑目录中。Mirra 不会自动上传这些文件。
+Your iPhone's screen, audio, and control commands travel between your computer and iPhone over the local network or USB. They do not pass through a Mirra cloud video relay and are not uploaded as part of startup analytics.
 
-## 保存在电脑上的数据
+Screenshots and recordings are saved in a folder you choose on your computer. Mirra does not upload them automatically.
 
-Mirra 可能在电脑本地保存：
+## Data stored on your computer
 
-- 与 iPhone 建立连接所需的配对信息；
-- 界面语言、窗口位置、音量和保存目录等偏好；
-- 最多保留 7 天的待发送启动事件队列；
-- 用户主动创建的问题反馈草稿、回执和受控诊断记录；
-- 用户主动保存的截图和录屏。
+Mirra may store the following locally:
 
-配对信息和反馈回执使用操作系统提供的本机安全存储或受限文件权限保存。删除应用不一定同时删除上述本地数据，具体取决于操作系统和卸载方式。
+- Pairing information needed to connect to your iPhone;
+- Preferences such as interface language, window position, volume, and save folders;
+- Queued startup events awaiting transmission for up to seven days;
+- Feedback drafts, receipts, and limited diagnostic records that you create;
+- Screenshots and recordings that you choose to save.
 
-## 启动统计
+Pairing information and feedback receipts are stored using operating-system secure storage or files with restricted permissions. Removing the app may not remove this local data; that depends on the operating system and how you uninstall it.
 
-Mirra 每次启动会尝试向云端上报一些用于体验改进的事件，包括：
+## Startup analytics
 
-- 随机生成的安装标识；
-- 随机事件编号和启动时间；
-- Mirra 版本；
-- Windows 或 macOS、处理器架构。
+Each time Mirra starts, it may attempt to send events used to improve the experience. These include:
 
-启动统计不包含姓名、邮箱、账号、电脑名称、iPhone 名称或标识、IP 地址字段、配对信息、截图、音视频、输入内容、操作记录或使用时长。随机安装标识可用于区分同一安装产生的启动事件，因此不应描述为完全匿名。
+- A randomly generated installation identifier;
+- A random event identifier and startup time;
+- The Mirra version;
+- Windows or macOS and the processor architecture.
 
-待发送事件在本地最多保存 7 天，服务端事件最多保存 90 天；备份最多保留 7 天。启动统计仅用于了解版本和平台分布及应用打开情况，不用于广告或用户画像。
+Startup analytics do not contain your name, email address, account, computer name, iPhone name or identifier, an IP-address field, pairing information, screenshots, audio, video, input content, interaction history, or usage duration. Because the random installation identifier can link startup events from the same installation, this data should not be described as fully anonymous.
 
-## 问题反馈
+Queued events are kept locally for no more than seven days. Server-side events are retained for no more than 90 days, and backups for no more than an additional seven days. Startup analytics are used only to understand version and platform distribution and app launches, not for advertising or user profiling.
 
-只有用户主动点击提交时，Mirra 才会发送问题反馈。反馈可能包含：
+## Problem reports
 
-- 用户选择的问题类型和填写的说明；
-- 用户自愿填写的联系邮箱；
-- Mirra 版本、电脑系统、系统版本和处理器架构；
-- 用户选择附带的受控诊断信息。
+Mirra sends a problem report only when you choose to submit it. A report may contain:
 
-受控诊断信息只记录版本和连接阶段等结构化状态，不包含手机画面、声音、输入内容、剪贴板文本、配对凭据或原始日志。用户可以在发送前查看或导出诊断内容。
+- The issue category and description you provide;
+- A contact email address, if you choose to provide one;
+- The Mirra version, computer operating system and version, and processor architecture;
+- Limited diagnostic information you choose to attach.
 
-反馈及附件最多保存 90 天。用户可以在 Mirra 的“我的反馈”中使用本机保存的回执查询状态或删除反馈；备份中的对应数据最多再保留 7 天。清除本机回执不会删除服务端反馈，并会使这台电脑失去继续查询或删除该反馈的能力。
+Limited diagnostics record structured states such as version and connection stage. They do not contain your iPhone screen, audio, input content, clipboard text, pairing credentials, or raw logs. You can review or export the diagnostic content before sending it.
 
-## 其他联网功能
+Reports and attachments are retained for no more than 90 days. You can use the locally stored receipt in Mirra's “My Feedback” page to check a report's status or delete it. The corresponding data may remain in backups for up to seven additional days. Deleting the local receipt does not delete the server-side report and prevents this computer from looking up or deleting it later.
 
-首次连接可能从云端下载经过校验的连接组件，并可能访问 Apple 提供的验证服务。版本检查会访问发布时配置的公开更新地址。这些请求不会携带手机画面、声音或输入内容。
+## Other network requests
 
-## 数据共享
+On first connection, Mirra may download verified connection components and contact Apple verification services. These requests do not carry your iPhone screen, audio, or input content. Mirra currently does not automatically check for or download new app versions; new versions are published on [GitHub Releases](https://github.com/nodnix/mirra/releases).
 
-Mirra 不向第三方出售或共享个人数据，也不用于广告或用户画像；除上述启动统计与问题反馈外，不向其他服务发送用户数据。
+## Data sharing
 
-GitHub Issues 和其他公开社区中的内容由用户主动公开，并同时受对应平台的隐私政策约束。请勿公开密码、验证码、配对凭据或包含私人内容的日志与截图。
+Mirra does not sell or share personal data with third parties, and does not use it for advertising or user profiling. Apart from the startup analytics and problem reports described above, it does not send user data to other services.
 
-## 联系与更新
+Content you post to GitHub Issues or another public community is made public by you and is also subject to that platform's privacy policy. Do not post passwords, pairing codes, pairing credentials, or logs or screenshots containing private information.
 
-隐私问题可通过 [GitHub Issues](https://github.com/nodnix/mirra/issues) 联系维护者；请勿在公开 Issue 中填写敏感信息。涉及私人内容时，请优先使用 Mirra 应用内的问题反馈。
+## Contact and updates
 
-功能或数据处理方式发生实质变化时，我们会更新本文及生效日期。
+For privacy questions, contact the maintainers through [GitHub Issues](https://github.com/nodnix/mirra/issues). Do not include sensitive information in a public issue. If private information is involved, use Mirra's in-app problem reporting feature instead.
+
+We will update this notice and its effective date when the features or data handling practices materially change.

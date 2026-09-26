@@ -1,86 +1,88 @@
 <h1>Mirra</h1>
 
-**Windows 也能直接操作 iPhone。** 免费、无需账号的 iPhone 镜像控制工具——不只投屏，还能用鼠标、键盘直接操作手机。
+[简体中文](README.zh-CN.md) | English
+
+**Control your iPhone directly from Windows.** Mirra is a free iPhone mirroring and control tool with no account required. It does more than show your screen: you can use your computer's mouse and keyboard to operate your iPhone.
 
 https://github.com/user-attachments/assets/ab38bbb8-6147-4619-b7e5-6e7c557f95c2
 
-免费 · 非开源 · 无账号 · iPhone 零安装 · 无需越狱 · 数据本地直连 
+Free · Closed source · No account · No iPhone app · No jailbreak · Local connection
 
 Windows / macOS · Wi-Fi / USB · iOS 27+
 
-## 下载
+## Download
 
-前往 [GitHub Releases](https://github.com/nodnix/mirra/releases)，根据发布说明下载对应版本。Windows 版为绿色便携版，解压后直接运行，无需安装。
+Go to [GitHub Releases](https://github.com/nodnix/mirra/releases) and choose the package for your computer. The Windows version is a portable ZIP: extract it and run Mirra without an installer.
 
-> **Windows 首次运行提示**：Mirra 是免费的非开源软件，未使用代码签名证书，因此首次双击运行时，Windows 可能弹出「Windows 已保护你的电脑」（SmartScreen）。点击 **「更多信息」→「仍要运行」** 即可正常使用——这是未签名应用的正常提示，不代表软件有问题。
+> **First launch on Windows:** Mirra is free, closed-source software without a code-signing certificate. Windows may show a “Windows protected your PC” SmartScreen prompt. After confirming that you downloaded Mirra from the official Release, select **More info → Run anyway** to launch it.
 
 <a id="getting-started"></a>
 
-## 快速开始
+## Quick start
 
-**开始前确认：**
+**Before you begin:**
 
-- iPhone 需要运行最新的 iOS 27，且需要打开开发者模式（软件有打开指引）。
-- 电脑需为 Windows 10/11（64 位 x64），或 macOS 14 及以上、搭载 Apple 芯片（Apple Silicon）的 Mac。
-- Wi-Fi 连接时，电脑与 iPhone 位于同一局域网；USB 连接请使用支持数据传输的线缆。
-- 首次准备连接组件需要访问互联网。
+- Your iPhone must run iOS 27 or later with Developer Mode enabled. Mirra provides in-app instructions.
+- Use Windows 10/11 on an x64 computer, or macOS 14 or later on an Apple Silicon Mac.
+- For Wi-Fi, connect the computer and iPhone to the same local network. For USB, use a cable that supports data transfer.
+- An internet connection is needed to prepare connection components the first time.
 
-连接流程：下载并打开 Mirra → 选择 Wi-Fi → 开启开发者模式 → 完成配对 → 等待首次准备 → 出现可操作的 iPhone 画面。使用 USB 时，选择“USB”并按界面提示连接数据线、完成信任。
+To connect over Wi-Fi: download and open Mirra → choose Wi-Fi → enable Developer Mode → pair the devices → wait for first-time preparation → start controlling your iPhone. For USB, choose “USB” and follow the prompts to connect the cable and trust the computer.
 
 https://github.com/user-attachments/assets/e572b948-ee1e-428f-8eb4-faae2ccc1e82
 
 <a id="faq"></a>
 
-## 常见问题
+## FAQ
 
-### 为什么在隐私与安全中找不到开发者模式？
+### Why can't I find Developer Mode under Privacy & Security?
 
-需要将手机和Mirra客户端放到同一个WIFI下，然后在Mirra客户端里操作“连接新手机 → WIFI无线 → 尚未开启/不确定 → 开始设置”，此时Mirra会在局域网里面广播，手机接收到这个广播会显示出开发者模式。
+Connect your iPhone and computer to the same local network. In Mirra, select “Connect a new iPhone → Wi-Fi → Not enabled / Not sure → Start setup.” Mirra broadcasts on the local network; you should then be able to find the Developer Mode option on your iPhone.
 
-你也可以借助其他工具打开也可以，比如XCode或是爱思助手之类的。
+You can also enable Developer Mode with a tool such as Xcode or Aisi Assistant (爱思助手).
 
-### 可以在外面通过互联网控制家里的手机吗？
+### Can I control my iPhone over the internet while I'm away from home?
 
-当前支持同一局域网 Wi-Fi 和 USB 连接，不提供跨互联网远程控制。
+No. Mirra currently supports Wi-Fi on the same local network and USB. It does not offer control over the public internet.
 
-### 为什么画面还在更新，手机却没有响应？
+### Why does the picture keep updating while my iPhone does not respond?
 
-由于 iPhone 的安全限制，部分系统授权弹窗不出现在镜像画面里。请查看实体 iPhone，处理手机上的提示后再继续。
+Some iOS permission prompts may not appear in the mirrored picture. Check your physical iPhone and respond to any prompt there before continuing.
 
-### 为什么找不到手机？
+### Why can't Mirra find my iPhone?
 
-Wi-Fi 连接请检查两端是否位于同一局域网，USB 连接请检查线缆和信任状态。
+For Wi-Fi, check that both devices are on the same local network. For USB, check the cable and whether you have trusted the computer on your iPhone.
 
-### 为什么公司的WIFI网络不行？
+### Why doesn't my company's Wi-Fi network work?
 
-可能是公司网络限制了 mDNS 这类协议，请改用 USB 连接。
+The network may restrict discovery protocols such as mDNS. Try USB instead.
 
-### 连接组件准备失败怎么办？
+### What if preparation of the connection components fails?
 
-检查网络后重试，并在反馈时附上界面显示的错误代号。
+Check your internet connection and try again. Include the error code shown in Mirra when reporting the problem.
 
-### Windows 弹出「Windows 已保护你的电脑」怎么办？
+### What should I do if Windows says “Windows protected your PC”?
 
-这是未签名软件的正常提示——签名证书需要付费，Mirra 免费、暂未购买。点击「更多信息」→「仍要运行」即可。
+Mirra is currently unsigned. After confirming that you downloaded it from the official Release, select “More info → Run anyway.”
 
-## 反馈与更新
+## Feedback and releases
 
-遇到问题，或有希望增加的功能，欢迎告诉我，描述你的使用场景。
+If you encounter a problem or would like a new feature, tell us what you were trying to do. Your use case helps us understand the request.
 
-**反馈入口：** [GitHub Issues](https://github.com/nodnix/mirra/issues)。
+**Feedback:** [GitHub Issues](https://github.com/nodnix/mirra/issues).
 
-提交问题时，尽量附上 Mirra 版本、电脑系统、手机型号和 iOS 版本、连接方式，以及复现步骤。不要在公开 Issue 中上传密码、验证码、配对凭据或含有私人内容的原始日志。
+When reporting a problem, please include your Mirra version, computer operating system, iPhone model and iOS version, connection type, and steps to reproduce it when possible. Do not post passwords, pairing codes, pairing credentials, or unredacted private logs in a public issue.
 
 <a id="community"></a>
 
-欢迎加入 **Mirra 交流群**（QQ 群号 `1126919301`），直接在这里反馈问题与需求。
+You can also join the **Mirra QQ group** (`1126919301`) to discuss problems and feature ideas.
 
-<img src="assets/qq.png" alt="Mirra 交流群 QQ 二维码" width="200">
+<img src="assets/qq.png" alt="QR code for the Mirra QQ group" width="200">
 
-## 隐私与许可
+## Privacy and licenses
 
-镜像与控制通过电脑和手机之间的局域网或 USB 连接进行，不经过 Mirra 的云端视频中转。连接组件准备、更新检查、体验统计和用户主动提交的问题反馈可能访问互联网。
+Mirroring and control travel directly between your computer and iPhone over your local network or USB. Mirra does not relay the video through its cloud. Preparing connection components, startup analytics, and feedback you choose to submit may use the internet.
 
-[隐私说明](PRIVACY.md) · [使用条款](TERMS.md) · [第三方软件声明](THIRD_PARTY_NOTICES.md) · [安全问题报告](SECURITY.md)
+[Privacy](PRIVACY.md) · [Terms of use](TERMS.md) · [Third-party notices](THIRD_PARTY_NOTICES.md) · [Open-source software rights](OPEN_SOURCE_RIGHTS.md) · [Report a security issue](SECURITY.md)
 
-Mirra 自身暂不开源；随产品分发的第三方开源组件仍遵循各自的许可证。第三方组件源码不等于 Mirra 产品源码。
+Mirra itself is not open source. Open-source components distributed with it remain subject to their own licenses; their source code is not the source code of the Mirra product.

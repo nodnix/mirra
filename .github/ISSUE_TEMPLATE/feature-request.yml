@@ -7,14 +7,14 @@ body:
   - type: textarea
     id: scenario
     attributes:
-      label: 你想做什么 / What do you want to do
-      description: 描述你的使用场景。
-      placeholder: 例如：我想同时连接两台 iPhone……
+      label: What do you want to do / 你想做什么
+      description: Describe what you are trying to do. / 描述你的使用场景。
+      placeholder: "Example: I want to connect two iPhones at once… / 例如：我想同时连接两台 iPhone……"
     validations:
       required: true
   - type: textarea
     id: suggestion
     attributes:
-      label: 期望效果（可选）/ Suggested behavior (optional)
+      label: Suggested behavior (optional) / 期望效果（可选）
     validations:
       required: false

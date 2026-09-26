@@ -7,20 +7,21 @@ body:
   - type: markdown
     attributes:
       value: |
+        Do not post passwords, pairing codes, credentials, or screenshots containing private information.
         请勿公开密码、配对码、凭据或包含私人内容的截图。
   - type: textarea
     id: description
     attributes:
-      label: 问题描述 / What happened
-      description: 发生了什么？做了哪些操作后出现的？
-      placeholder: 例如：连接 Wi-Fi 后画面黑屏，手机端显示已配对……
+      label: What happened / 问题描述
+      description: What happened, and what did you do before it occurred? / 发生了什么？做了哪些操作后出现的？
+      placeholder: "Example: The screen went black after connecting over Wi-Fi… / 例如：连接 Wi-Fi 后画面黑屏……"
     validations:
       required: true
   - type: textarea
     id: context
     attributes:
-      label: 环境信息（可选）/ Environment (optional)
-      description: Mirra 版本、电脑系统、iPhone 与 iOS 版本、连接方式（Wi-Fi/USB）。不填也能提交。
+      label: Environment (optional) / 环境信息（可选）
+      description: Mirra version, computer OS, iPhone and iOS version, and connection type (Wi-Fi/USB). Optional. / Mirra 版本、电脑系统、iPhone 与 iOS 版本、连接方式（Wi-Fi/USB）。不填也能提交。
       placeholder: Mirra 0.1.0 / Windows 11 / iPhone 15, iOS 27.0 / Wi-Fi
     validations:
       required: false

@@ -1,21 +1,23 @@
-# Mirra 第三方软件声明
+# Mirra Third-party Software Notices
 
-Mirra 是闭源产品，但包含按独立许可证提供的第三方软件。第三方组件的版权属于其各自权利人；相应许可证不因 Mirra 的产品条款而失效。
+[简体中文](THIRD_PARTY_NOTICES.zh-CN.md) | English
 
-## 主要组件
+Mirra is a closed-source product that includes third-party software under separate licenses. Copyright in those components belongs to their respective rights holders. Mirra's product terms do not override their licenses.
 
-- **Qt 6.10.2**：使用 LGPL-3.0 开源许可选项，采用动态链接方式分发。实际模块和插件以对应平台安装包中的许可材料为准。
-- **FFmpeg 7.1.2**：Qt Multimedia 后端可能分发 FFmpeg 运行库；发布构建按 LGPL-2.1-or-later 方案准备，不使用 GPL 或 nonfree 构建替代。
-- **Fraunhofer FDK AAC 2.0.3**：Windows 版本用于解码 AAC-ELD 音频，适用其原始许可声明；该许可不授予专利许可。
-- **Go 及 Go 依赖**：适用 Go 项目和各依赖分别提供的许可证。
+## Main components
 
-## 完整材料
+- **Qt 6.10.2:** Distributed using the LGPL-3.0 open-source license option and dynamic linking. The actual modules and plugins are listed in the license materials included with each platform's release package.
+- **FFmpeg 7.1.2:** The Qt Multimedia backend may distribute FFmpeg runtime libraries. Release builds are prepared under an LGPL-2.1-or-later configuration, without substituting GPL or nonfree builds.
+- **Fraunhofer FDK AAC 2.0.3:** Used to decode AAC-ELD audio on Windows. Its original license notice applies and does not grant patent rights.
+- **Go and Go dependencies:** Covered by the separate licenses of Go and each dependency.
 
-每个平台的正式安装包均应包含完整的第三方版权声明、许可原文、对应源码获取方式，以及适用时的库替换说明：
+## Complete materials
 
-- macOS：`Mirra.app/Contents/Resources/licenses/`
-- Windows：Mirra 安装目录中的 `licenses/`
+Official release packages for each platform should include the full third-party copyright notices, license texts, information on obtaining corresponding source code, and library replacement instructions where applicable:
 
-本页只是便于阅读的概要，不能替代安装包内的完整许可材料。具体版本、实际分发组件和原始许可证以对应 Release 安装包为准。
+- macOS: `Mirra.app/Contents/Resources/licenses/`
+- Windows: `licenses/` in the extracted Mirra portable package
 
-第三方软件的修改、替换、重新链接及相关调试权利见 [开源软件权利](OPEN_SOURCE_RIGHTS.md)。
+This page is a readable summary, not a replacement for the complete license materials in the release package. The actual distributed components, versions, and original licenses in the relevant Release package control.
+
+For your rights to modify, replace, relink, and debug third-party software, see [Open-source Software Rights](OPEN_SOURCE_RIGHTS.md).

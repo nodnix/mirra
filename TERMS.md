@@ -1,48 +1,50 @@
-# Mirra 使用条款
+# Mirra Terms of Use
 
-生效日期：2026 年 9 月 15 日
+[简体中文](TERMS.zh-CN.md) | English
 
-下载、安装或使用 Mirra，即表示用户同意本条款。
+Effective date: September 26, 2026
 
-## 免费使用与授权
+By downloading, installing, or using Mirra, you agree to these terms.
 
-Mirra 当前免费提供。用户可以在遵守本条款的前提下下载、安装和使用由官方渠道发布的 Mirra 版本。
+## Free use and license
 
-免费不代表开源。除第三方开源组件外，Mirra 的产品代码、品牌、界面和其他专有内容未授予开源许可。
+Mirra is currently provided free of charge. You may download, install, and use versions of Mirra released through official channels, subject to these terms.
 
-## 使用限制
+Free does not mean open source. Except for third-party open-source components, no open-source license is granted for Mirra's product code, brand, interface, or other proprietary materials.
 
-未经维护者书面许可，用户不得：
+## Restrictions
 
-- 重新发布、出售、出租或将 Mirra 安装包作为其他产品的一部分分发；
-- 移除或修改 Mirra 的版权、品牌或第三方许可声明；
-- 规避安全机制，或者利用 Mirra 未经授权访问、控制或采集他人的设备和内容；
-- 将 Mirra 用于违反适用法律或侵害他人权益的活动。
+Without the maintainers' written permission, you may not:
 
-在适用法律或第三方开源许可证明确允许的范围内，上述限制不排除相应的法定权利或开源软件权利。
+- Redistribute, sell, or rent Mirra's release packages, or distribute them as part of another product;
+- Remove or alter Mirra's copyright, brand, or third-party license notices;
+- Circumvent security measures or use Mirra to access, control, or capture other people's devices or content without authorization;
+- Use Mirra in violation of applicable law or in a way that infringes others' rights.
 
-## 用户责任
+These restrictions do not limit rights expressly provided by applicable law or third-party open-source licenses.
 
-用户应只连接自己拥有或获准操作的 iPhone，并负责保护电脑、手机、配对信息、截图和录屏。重要数据应自行备份。
+## Your responsibilities
 
-Mirra 依赖操作系统、网络、Apple 服务和设备行为。系统升级、网络策略或第三方服务变化可能影响兼容性。
+Connect only iPhones that you own or are authorized to operate. You are responsible for protecting your computer, iPhone, pairing information, screenshots, and recordings, and for backing up important data.
 
-## 更新与服务变化
+Mirra depends on operating systems, networks, Apple services, and device behavior. System upgrades, network policies, or changes to third-party services may affect compatibility.
 
-我们可以发布更新、调整兼容范围或停止维护旧版本。需要联网的组件下载、版本检查和问题反馈服务也可能发生变化。重要变化会尽量通过 GitHub Release 或 README 说明。
+## Updates and service changes
 
-## 免责声明
+We may release updates, change compatibility, or stop maintaining older versions. Network services used to download connection components or submit problem reports may also change. We will try to describe important changes in GitHub Releases or the README.
 
-Mirra 按现状提供。在适用法律允许的最大范围内，我们不保证软件始终无错误、不中断或兼容所有设备、系统和应用，也不对因使用或无法使用 Mirra 导致的间接、附带或后果性损失承担责任。
+## Disclaimer
 
-本条不排除适用法律不得排除或限制的责任。
+Mirra is provided as is. To the maximum extent permitted by applicable law, we do not warrant that it will always be error-free, uninterrupted, or compatible with every device, system, or app. We are not liable for indirect, incidental, or consequential losses arising from use of or inability to use Mirra.
 
-## 第三方软件与商标
+This section does not exclude or limit any liability that cannot lawfully be excluded or limited.
 
-Mirra 包含按各自许可证提供的第三方软件。相关许可证优先于本条款中与其冲突的限制，详情见 [第三方软件声明](THIRD_PARTY_NOTICES.md)和[开源软件权利](OPEN_SOURCE_RIGHTS.md)。
+## Third-party software and trademarks
 
-Apple、iPhone、iOS 和 macOS 是 Apple Inc. 的商标。Windows 是 Microsoft Corporation 的商标。Mirra 与 Apple Inc. 或 Microsoft Corporation 不存在隶属、认可或赞助关系。
+Mirra includes third-party software provided under its own licenses. Those licenses take precedence where they conflict with these terms. See the [Third-party Software Notices](THIRD_PARTY_NOTICES.md) and [Open-source Software Rights](OPEN_SOURCE_RIGHTS.md).
 
-## 条款更新
+Apple, iPhone, iOS, and macOS are trademarks of Apple Inc. Windows is a trademark of Microsoft Corporation. Mirra is not affiliated with, endorsed by, or sponsored by Apple Inc. or Microsoft Corporation.
 
-条款更新会修改本页的生效日期。继续使用更新后的版本表示接受适用于该版本的条款。
+## Changes to these terms
+
+When these terms change, we will update the effective date on this page. Continued use of an updated version means that you accept the terms applicable to that version.

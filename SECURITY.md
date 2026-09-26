@@ -1,17 +1,19 @@
-# Mirra 安全问题报告
+# Reporting a Security Issue in Mirra
 
-如果发现可能影响 Mirra 用户、配对信息、更新下载或后台服务的安全问题，请不要创建公开 Issue，也不要在 QQ 群或其他公开社区中披露利用细节。
+[简体中文](SECURITY.zh-CN.md) | English
 
-优先使用 GitHub 仓库 **Security** 页面中的 **Report a vulnerability** 私密报告入口。仓库尚未启用该入口时，可以使用 Mirra 应用内的“帮助与反馈”提交，并在问题类型中选择“其他”。
+If you discover a security issue that may affect Mirra users, pairing information, update downloads, or backend services, do not open a public issue or disclose exploit details in the QQ group or another public community.
 
-报告建议包含：
+Use **Report a vulnerability** on the repository's **Security** page for a private report. If that option is not enabled, submit a report through Mirra's in-app “Help & Feedback” page and select “Other” as the issue type.
 
-- 受影响的 Mirra 版本和电脑系统；
-- 问题类型及可能影响；
-- 最小复现步骤；
-- 已采取的临时防护措施；
-- 可以安全分享的证明材料。
+Please include, when possible:
 
-请勿发送真实密码、验证码、配对凭据、Apple 账号信息或无关的私人内容。首次报告时不必公开完整利用代码；维护者确认安全沟通方式后再补充敏感材料。
+- The affected Mirra version and computer operating system;
+- The type of issue and its possible impact;
+- Minimal steps to reproduce it;
+- Any temporary precautions you have taken;
+- Evidence that can be shared safely.
 
-普通连接失败、界面问题和功能建议请使用 [GitHub Issues](https://github.com/nodnix/mirra/issues)。
+Do not send real passwords, pairing codes, pairing credentials, Apple Account information, or unrelated private content. You do not need to disclose complete exploit code in your first report; share sensitive materials after the maintainers establish a safe communication channel.
+
+For ordinary connection problems, interface issues, and feature requests, use [GitHub Issues](https://github.com/nodnix/mirra/issues).
