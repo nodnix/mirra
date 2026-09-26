@@ -27,9 +27,17 @@ Windows / macOS · Wi-Fi / USB · iOS 27+
 
 连接流程：下载并打开 Mirra → 选择 Wi-Fi → 开启开发者模式 → 完成配对 → 等待首次准备 → 出现可操作的 iPhone 画面。使用 USB 时，选择“USB”并按界面提示连接数据线、完成信任。
 
+https://github.com/user-attachments/assets/e572b948-ee1e-428f-8eb4-faae2ccc1e82
+
 <a id="faq"></a>
 
 ## 常见问题
+
+### 为什么在隐私与安全中找不到开发者模式？
+
+需要将手机和Mirra客户端放到同一个WIFI下，然后在Mirra客户端里操作“连接新手机 → WIFI无线 → 尚未开启/不确定 → 开始设置”，此时Mirra会在局域网里面广播，手机接收到这个广播就是显示出开发者模式。
+
+你也可以借助其他工具打开也可以，比如XCode或是爱思助手之类的。
 
 ### 可以在外面通过互联网控制家里的手机吗？
 
