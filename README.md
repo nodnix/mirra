@@ -73,12 +73,6 @@ If you encounter a problem or would like a new feature, tell us what you were tr
 
 When reporting a problem, please include your Mirra version, computer operating system, iPhone model and iOS version, connection type, and steps to reproduce it when possible. Do not post passwords, pairing codes, pairing credentials, or unredacted private logs in a public issue.
 
-<a id="community"></a>
-
-You can also join the **Mirra QQ group** (`1126919301`) to discuss problems and feature ideas.
-
-<img src="assets/qq.png" alt="QR code for the Mirra QQ group" width="200">
-
 ## Privacy and licenses
 
 Mirroring and control travel directly between your computer and iPhone over your local network or USB. Mirra does not relay the video through its cloud. Preparing connection components, startup analytics, and feedback you choose to submit may use the internet.
